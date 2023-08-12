@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog: Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Poppins:wght@400;500;700&family=Roboto&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="img/logo.png" class="logo"  alt="">
+        <ul class="links-container">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"><a href="/editor" class="link">editor</a></li> 
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="content">
+            <h1 class="heading">
+                <span class="small">welcome in the world of</span>
+                blog
+                <span class="no-fill">writing</span>
+            </h1>
+            <a href="/editor" class="btn">write a blog</a>
+
+        </div>
+    </header>
+
+    <!-- blog section -->
+    <section class="blogs-section">
+        <div class="blog-card">
+            <img src="img/blog2.jpg" alt="" class="blog-image">
+            <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt id a modi unde nihil, reiciendis optio consectetur blanditiis cupiditate libero temporibus. </p>
+            <a href="/" class="btn dark">read</a>
+
+        </div>
+
+    </section>
+    <script  src-elem="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase-firestore.js"></script>
+    <script src-elem="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase-app.js"></script>
+    <script type="module" src-elem="js/firebase.js"></script>
+    <script default-src="js/editor.js"></script>
+    <script  default-src="js/blog.js"></script>
+
+    
+</body>
+</html>
